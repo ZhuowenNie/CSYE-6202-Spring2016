@@ -1,0 +1,6 @@
+C:\Users\Administrator\Source\Repos\CSYE-6202-Spring2016\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.exe.config
+C:\Users\Administrator\Source\Repos\CSYE-6202-Spring2016\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.exe
+C:\Users\Administrator\Source\Repos\CSYE-6202-Spring2016\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.pdb
+C:\Users\Administrator\Source\Repos\CSYE-6202-Spring2016\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.exe
+C:\Users\Administrator\Source\Repos\CSYE-6202-Spring2016\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.pdb
+C:\Users\Administrator\Source\Repos\CSYE-6202-Spring2016\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.csprojResolveAssemblyReference.cache
