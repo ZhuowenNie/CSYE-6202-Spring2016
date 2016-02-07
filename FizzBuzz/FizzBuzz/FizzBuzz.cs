@@ -1,4 +1,5 @@
-﻿namespace FizzBuzz
+﻿using System;
+namespace FizzBuzz
 {
 	public class FizzBuzz
 	{
@@ -6,9 +7,23 @@
 		{
 			string result = number.ToString();
 
-			// your solution/implementation should go in here
+            // your solution/implementation should go in here
+            if (number == 0)
+            {
+                result = "0";
+            }
+           else if (number == 1)
+            { result = "1"; }
 
-			return result;
+           else if (number % 3 == 0)
+            { result = "Fizz"; }
+           else if (number % 5 == 0)
+            { result = "Buzz"; }
+            else if (number % 15 == 0)
+            { result = "FizzBuzz"; }
+            
+
+            return result;
 		}
 	}
 }
