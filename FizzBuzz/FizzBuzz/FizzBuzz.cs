@@ -14,13 +14,14 @@ namespace FizzBuzz
             }
            else if (number == 1)
             { result = "1"; }
+            else if (number % 15 == 0 )
 
-           else if (number % 3 == 0)
+            { result = "FizzBuzz"; }
+            else if (number % 3 == 0)
             { result = "Fizz"; }
            else if (number % 5 == 0)
             { result = "Buzz"; }
-            else if (number % 15 == 0)
-            { result = "FizzBuzz"; }
+           
             
 
             return result;

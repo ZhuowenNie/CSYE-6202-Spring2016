@@ -338,7 +338,7 @@
     <timestamps>
       <styleCop>2016/02/08 02:08:38.496</styleCop>
       <settingsFile>2016/02/08 02:08:36.873</settingsFile>
-      <sourceFile>2016/02/08 04:18:42.759</sourceFile>
+      <sourceFile>2016/02/08 05:45:05.231</sourceFile>
       <parser>2016/02/08 02:08:38.496</parser>
       <StyleCop.CSharp.DocumentationRules>2016/02/08 02:08:38.496</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-774915262</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -363,21 +363,16 @@
         <line>1</line>
         <warning>False</warning>
       </violation>
-      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
-        <context>All using directives must be placed inside of the namespace.</context>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainBlankLinesAtStartOfFile" ruleCheckId="SA1517">
+        <context>The code must not contain blank lines at the start of the file.</context>
         <line>1</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ElementsMustBeSeparatedByBlankLine" ruleCheckId="SA1516">
-        <context>Adjacent elements must be separated by a blank line.</context>
-        <line>2</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.SpacingRules" rule="TabsMustNotBeUsed" ruleCheckId="SA1027">
         <context>Tabs are not allowed. Use spaces instead.</context>
         <line>4</line>
-        <index>38</index>
-        <endIndex>38</endIndex>
+        <index>25</index>
+        <endIndex>25</endIndex>
         <startLine>4</startLine>
         <startColumn>1</startColumn>
         <endLine>4</endLine>
@@ -392,8 +387,8 @@
       <violation namespace="StyleCop.CSharp.SpacingRules" rule="TabsMustNotBeUsed" ruleCheckId="SA1027">
         <context>Tabs are not allowed. Use spaces instead.</context>
         <line>5</line>
-        <index>62</index>
-        <endIndex>62</endIndex>
+        <index>49</index>
+        <endIndex>49</endIndex>
         <startLine>5</startLine>
         <startColumn>1</startColumn>
         <endLine>5</endLine>
@@ -403,8 +398,8 @@
       <violation namespace="StyleCop.CSharp.SpacingRules" rule="TabsMustNotBeUsed" ruleCheckId="SA1027">
         <context>Tabs are not allowed. Use spaces instead.</context>
         <line>6</line>
-        <index>66</index>
-        <endIndex>67</endIndex>
+        <index>53</index>
+        <endIndex>54</endIndex>
         <startLine>6</startLine>
         <startColumn>1</startColumn>
         <endLine>6</endLine>
@@ -413,12 +408,12 @@
       </violation>
       <violation namespace="StyleCop.CSharp.SpacingRules" rule="TabsMustNotBeUsed" ruleCheckId="SA1027">
         <context>Tabs are not allowed. Use spaces instead.</context>
-        <line>28</line>
-        <index>645</index>
-        <endIndex>645</endIndex>
-        <startLine>28</startLine>
+        <line>29</line>
+        <index>647</index>
+        <endIndex>647</endIndex>
+        <startLine>29</startLine>
         <startColumn>1</startColumn>
-        <endLine>28</endLine>
+        <endLine>29</endLine>
         <endColumn>1</endColumn>
         <warning>False</warning>
       </violation>
@@ -447,9 +442,15 @@
         <line>23</line>
         <warning>False</warning>
       </violation>
-      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ChainedStatementBlocksMustNotBePrecededByBlankLine" ruleCheckId="SA1510">
-        <context>An else, catch, or finally statement must not be preceded by a blank line.</context>
-        <line>18</line>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="OpeningCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1509">
+        <context>An opening curly bracket must not be preceded by a blank line.</context>
+        <line>19</line>
+        <index>414</index>
+        <endIndex>414</endIndex>
+        <startLine>19</startLine>
+        <startColumn>13</startColumn>
+        <endLine>19</endLine>
+        <endColumn>13</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
@@ -457,11 +458,16 @@
         <line>25</line>
         <warning>False</warning>
       </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
+        <context>The code must not contain multiple blank lines in a row.</context>
+        <line>26</line>
+        <warning>False</warning>
+      </violation>
       <violation namespace="StyleCop.CSharp.SpacingRules" rule="TabsMustNotBeUsed" ruleCheckId="SA1027">
         <context>Tabs are not allowed. Use spaces instead.</context>
         <line>7</line>
-        <index>107</index>
-        <endIndex>108</endIndex>
+        <index>94</index>
+        <endIndex>95</endIndex>
         <startLine>7</startLine>
         <startColumn>1</startColumn>
         <endLine>7</endLine>
@@ -471,22 +477,33 @@
       <violation namespace="StyleCop.CSharp.SpacingRules" rule="TabsMustNotBeUsed" ruleCheckId="SA1027">
         <context>Tabs are not allowed. Use spaces instead.</context>
         <line>8</line>
-        <index>112</index>
-        <endIndex>114</endIndex>
+        <index>99</index>
+        <endIndex>101</endIndex>
         <startLine>8</startLine>
         <startColumn>1</startColumn>
         <endLine>8</endLine>
         <endColumn>3</endColumn>
         <warning>False</warning>
       </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>17</line>
+        <index>396</index>
+        <endIndex>396</endIndex>
+        <startLine>17</startLine>
+        <startColumn>38</startColumn>
+        <endLine>17</endLine>
+        <endColumn>38</endColumn>
+        <warning>False</warning>
+      </violation>
       <violation namespace="StyleCop.CSharp.SpacingRules" rule="TabsMustNotBeUsed" ruleCheckId="SA1027">
         <context>Tabs are not allowed. Use spaces instead.</context>
-        <line>27</line>
-        <index>640</index>
-        <endIndex>641</endIndex>
-        <startLine>27</startLine>
+        <line>28</line>
+        <index>642</index>
+        <endIndex>643</endIndex>
+        <startLine>28</startLine>
         <startColumn>1</startColumn>
-        <endLine>27</endLine>
+        <endLine>28</endLine>
         <endColumn>2</endColumn>
         <warning>False</warning>
       </violation>
@@ -527,7 +544,7 @@
       </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
-        <line>18</line>
+        <line>17</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
@@ -560,9 +577,14 @@
         <line>24</line>
         <warning>False</warning>
       </violation>
+      <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CodeLineMustNotEndWithWhitespace" ruleCheckId="SP2000">
+        <context>Invalid spacing at the end of the line.</context>
+        <line>25</line>
+        <warning>False</warning>
+      </violation>
       <violation namespace="StyleCopPlus.StyleCopPlusRules" rule="CheckAllowedIndentationCharacters" ruleCheckId="SP2001">
         <context>Only tab characters are allowed to be used for indentation.</context>
-        <line>26</line>
+        <line>27</line>
         <warning>False</warning>
       </violation>
     </violations>

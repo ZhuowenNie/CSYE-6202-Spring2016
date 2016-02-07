@@ -1,17 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\Users\Administrator\Source\Repos\CSYE-6202-Spring2016\FizzBuzz\FizzBuzz.Tests\bin\Debug\FizzBuzz.Tests.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2016-02-08" time="04:19:03">
+<test-results name="C:\Users\Administrator\Source\Repos\CSYE-6202-Spring2016\FizzBuzz\FizzBuzz.Tests\bin\Debug\FizzBuzz.Tests.dll" total="8" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2016-02-08" time="05:45:43">
   <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.5472" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files\NUnit 2.6.4\bin" machine-name="WIN-NEPD31JA94H" user="Administrator" user-domain="WIN-NEPD31JA94H" />
   <culture-info current-culture="zh-CN" current-uiculture="zh-CN" />
-  <test-suite type="Assembly" name="C:\Users\Administrator\Source\Repos\CSYE-6202-Spring2016\FizzBuzz\FizzBuzz.Tests\bin\Debug\FizzBuzz.Tests.dll" executed="True" result="Success" success="True" time="0.064" asserts="0">
+  <test-suite type="Assembly" name="C:\Users\Administrator\Source\Repos\CSYE-6202-Spring2016\FizzBuzz\FizzBuzz.Tests\bin\Debug\FizzBuzz.Tests.dll" executed="True" result="Success" success="True" time="0.087" asserts="0">
     <results>
-      <test-suite type="Namespace" name="FizzBuzz" executed="True" result="Success" success="True" time="0.055" asserts="0">
+      <test-suite type="Namespace" name="FizzBuzz" executed="True" result="Success" success="True" time="0.080" asserts="0">
         <results>
-          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.055" asserts="0">
+          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.080" asserts="0">
             <results>
-              <test-suite type="TestFixture" name="WhenRunningFizzBuzz" executed="True" result="Success" success="True" time="0.053" asserts="0">
+              <test-suite type="TestFixture" name="WhenRunningFizzBuzz" executed="True" result="Success" success="True" time="0.079" asserts="0">
                 <results>
-                  <test-case name="FizzBuzz.Tests.WhenRunningFizzBuzz.When_NumberIs0_ResultShouldBe0" executed="True" result="Success" success="True" time="0.019" asserts="1" />
+                  <test-case name="FizzBuzz.Tests.WhenRunningFizzBuzz.When_NumberIs0_ResultShouldBe0" executed="True" result="Success" success="True" time="0.013" asserts="1" />
+                  <test-case name="FizzBuzz.Tests.WhenRunningFizzBuzz.When_NumberIs1_ResultShouldBe1" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="FizzBuzz.Tests.WhenRunningFizzBuzz.When_NumberIs15_ResultShouldBeFizzBuzz" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="FizzBuzz.Tests.WhenRunningFizzBuzz.When_NumberIs25_ResultShouldBeBuzz" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="FizzBuzz.Tests.WhenRunningFizzBuzz.When_NumberIs3_ResultShouldBeFizz" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="FizzBuzz.Tests.WhenRunningFizzBuzz.When_NumberIs5_ResultShouldBeBuzz" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="FizzBuzz.Tests.WhenRunningFizzBuzz.When_NumberIs9_ResultShouldBeFizz" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="FizzBuzz.Tests.WhenRunningFizzBuzz.When_NumberIs98_ResultShouldBe98" executed="True" result="Success" success="True" time="0.001" asserts="1" />
                 </results>
               </test-suite>
             </results>
