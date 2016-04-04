@@ -15,22 +15,23 @@ namespace StudentRegistrationApp
 		[STAThread]
 		static void Main()
 		{
-			//Application.EnableVisualStyles();
-			//Application.SetCompatibleTextRenderingDefault(false);
-			//Application.Run(new StudentRegistrationForm());
+            //Application.EnableVisualStyles();
+            //Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new StudentRegistrationForm());
 
-			IModel model = new Model();
-			IView view = new StudentRegistrationForm();
-			var presenter = new Presenter(model, view);
+            IModel model = new Model();
+           // IView view = new StudentRegistrationForm();
+            IView view = new LoginForm();
+            var presenter = new Presenter(model, view);
 
-			//var form = view as StudentRegistrationForm;
+            //var form = view as StudentRegistrationForm;
 
-			//if (form != null)
-			//{
-			//	form.ShowDialog();
-			//}
+            //if (form != null)
+            //{
+            //	form.ShowDialog();
+            //}
 
-			presenter.Show();
-		}
+            presenter.ShowLoginForm();
+        }
 	}
 }

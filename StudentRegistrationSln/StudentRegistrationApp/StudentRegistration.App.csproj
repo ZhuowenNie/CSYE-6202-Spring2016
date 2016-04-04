@@ -71,6 +71,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\StudentRegistration.Domain\StudentRegistration.Domain.csproj">
+      <Project>{699e236a-7c11-4f01-b0c7-20f97bad5352}</Project>
+      <Name>StudentRegistration.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\StudentRegistration.MVP\StudentRegistration.MVP.csproj">
       <Project>{60a3588f-563d-42b5-a0a7-0fdfffb3c915}</Project>
       <Name>StudentRegistration.MVP</Name>

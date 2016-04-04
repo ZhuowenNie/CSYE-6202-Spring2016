@@ -1,4 +1,6 @@
-﻿namespace StudentRegistration.MVP
+﻿using System;
+
+namespace StudentRegistration.MVP
 {
 	public class Presenter
 	{
@@ -22,5 +24,15 @@
 				form.ShowDialog();
 			}
 		}
-	}
+
+        public void ShowLoginForm()
+        {
+            var form = view as LoginForm;
+
+            if (form != null)
+            {
+                form.ShowDialog();
+            }
+        }
+    }
 }
